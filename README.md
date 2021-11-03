@@ -1,12 +1,11 @@
-# node-express-typescript-mongodb-swagger
-
+# NodeJSExpressTypescriptMongoDBFramework
 
 
 Please follw the below steps:
 
 ```
-git clone https://github.com/vipinkavlar/node-express-typescript-mongodb-swagger.git
-cd node-express-typescript-mongodb-swagger
+git clone https://github.com/vijaynt/NodeJSExpressTypescriptMongoDBFramework.git
+cd NodeJSExpressTypescriptMongoDBFramework
 npm install
 npm run dev
 ```
