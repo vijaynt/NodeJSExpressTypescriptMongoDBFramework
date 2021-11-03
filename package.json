@@ -5,7 +5,9 @@
     "start": "ts-node --transpile-only src/server.ts",
     "dev": "nodemon --watch src --delay 1 --exec ts-node src/server.ts",
     "test": "jest --forceExit --detectOpenHandles",
-    "lint": "tslint -p tsconfig.json -c tslint.json"
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "build": "gulp",
+    "production": "node dist/server.js"	
   },
   "dependencies": {
     "@types/swagger-ui-express": "^4.1.1",
@@ -37,6 +39,8 @@
     "@types/node": "^13.1.8",
     "@types/supertest": "^2.0.8",
     "@types/swagger-jsdoc": "^3.0.2",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
     "nodemon": "^2.0.2",
     "supertest": "^4.0.2",
     "tslint": "^5.20.1",
